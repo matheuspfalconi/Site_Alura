@@ -412,3 +412,78 @@ nav {
 }
 
 /*===================================Estilos Formações===================================*/
+
+.section_formacao {
+	width: 100%;
+	height: auto;
+	padding: 80px 130px 150px 130px;
+	background-color: #051D3B;
+}
+
+.content_formacao {
+	width: 100%;
+	height: auto;
+}
+
+.text_formacao {
+	width: 450px;
+	height: auto;
+	margin-bottom: 80px;
+}
+
+.text_formacao > span {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.text_formacao > h1 {
+	margin: 20px 0;
+	font-size: 2.5em;
+}
+
+.list_formacao_options {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	margin-top: 20px;
+}
+
+.list_formacao_options > li {
+	width: 270px;
+	height: 415px;
+}
+
+.div_title_formacao {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.title_formacao {
+	margin-left: 10px;
+}
+
+.list_formacao_options > li > a {
+	color: lightgray;
+}
+
+.desc_formacao > p {
+	height: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+
+.button_seeFormation {
+	margin-top: 20px;
+}
+
+.button_seeFormation > a {
+	color: lightgray;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+.button_seeFormation > a:hover {
+	color: gray;
+}
