@@ -1,0 +1,327 @@
+/*===================================Fontes Gerais===================================/
+Body - 16px
+H1 - 32px
+H2 - 
+H3 - 
+SPAN - 14px
+P - 16px
+A - 16px
+
+*/
+
+/*===================================Breakpoints Gerais===================================/
+
+@media (min-width:320px) { smartphones, portrait iPhone, portrait 480x320 phones (Android) }
+@media (min-width:480px) { smartphones, Android phones, landscape iPhone }
+@media (min-width:600px) { portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+@media (min-width:801px) { tablet, landscape iPad, lo-res laptops ands desktops }
+@media (min-width:1025px) { big landscape tablets, laptops, and desktops }
+@media (min-width:1281px) { hi-res laptops and desktops }
+
+/*
+
+
+/*===================================Fontes===================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Roboto+Mono:wght@200&display=swap');
+
+/*===================================Estilos Gerais===================================*/
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body, p, h1, h2, ul, li, blockquote {
+	padding: 0px;
+	margin: 0px;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background-size: 100%;
+	color: white;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: left;
+	font-family: 'Inter', sans-serif;
+}
+
+* {box-sizing:border-box;}
+
+li {
+	list-style: none;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+  font-size: 1.825em;
+}
+
+h3 {
+	font-size: 1.250em;
+}
+
+span, p {
+	font-size: 1em;
+}
+
+input, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*===================================Estilos Home===================================*/
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+.diagonal_box {
+	background-color: #051D3B;
+	height: 110vh;
+	transform: skewY(-2deg);
+}
+
+.section_home {
+	width: 100%;
+	height: auto;
+	transform: skewY(2deg);
+}
+
+nav {
+	width: 100%;
+	padding: 40px 150px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-color: #051D3B;
+}
+
+.div_logo > img {
+	width: 95px;
+	height: 45px;
+}
+
+.div_search {
+	width: 300px;
+	height: 55px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	display: flex;
+	align-content: center;
+	padding-left: 20px;
+}
+
+.div_search > input {
+	width: 100%;
+	background: none;
+	border: none;
+}
+
+.icon_search {
+	width: auto;
+	height: 100%;
+	padding: 10px 10px 0 10px;
+}
+
+.icon_search > span {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.div_navbar {
+	width: auto;
+	height: 57px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	column-gap: 20px;
+}
+
+.list_links {
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	column-gap: 20px;
+	font-size: 0.8em;
+	padding-top: 20px;
+}
+
+.item_links > a, .item_buttons > a {
+	color: white;
+}
+
+.item_links:hover > a {
+	color: gray;
+}
+
+.list_buttons {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 20px;
+	font-size: 0.8em;
+}
+
+.item_buttons {
+	padding-top: 20px;
+}
+
+.item_buttons:hover > a {
+	color: gray;
+}
+
+.div_button_matricular > input {
+	width: 200px;
+	height: 55px;
+	background-color: #A0F8BE;
+	border-radius: 25px;
+	border: none;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.div_button_matricular > input:hover {
+	margin-top: 2px; 
+}
+
+.content_home {
+	width: 100%;
+	height: auto;
+	padding: 0 150px 50px 150px;
+}
+
+.text_home {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+.text_home > h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.text_home > p {
+	color: lightgray;
+}
+
+.img_home {
+	position: absolute;
+	top: 30%;
+	right: 300px;
+}
+
+.img_home > img {
+	width: 300px;
+	height: auto;
+}
+
+.school_options {
+	position: absolute;
+}
+
+.list_school_options {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 15px;
+}
+
+.list_school_options > li {
+	width: 200px;
+	height: 210px;
+	padding: 20px;
+	margin-bottom: 15px;
+	background-color: #051D3B;
+	border: 1px solid #0D4D9C;
+	border-radius: 10px;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+.list_school_options > li:hover {
+	border: 1px solid #318BF6;
+}
+
+.option_hidden {
+	opacity: 0;
+}
+
+.div_icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.div_title_school :first-child {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.div_title_school {
+	margin: 10px 0;
+}
+
+.title_school {
+	font-weight: bold;
+}
+
+#green_text {color: green;}
+#green_icon {background-color: #20534B;}
+
+#blue_text {color: blue;}
+#blue_icon {background-color: #27567A;}
+
+#lightgreen_text {color: lightgreen;}
+#lightgreen_icon {background-color: #37552E;}
+
+#red_text {color: red;}
+#red_icon {background-color: #4F3046;}
+
+#purple_text {color: purple;}
+#purple_icon {background-color: #483665;}
+
+#yellow_text {color: yellow;}
+#yellow_icon {background-color: #554D2F;}
+
+#orange_text {color: orange;}
+#orange_icon {background-color: #543D2D;}
+
+/*===================================Estilos Sobre===================================*/
+
+.section_sobre {
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+}
