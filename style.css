@@ -23,7 +23,7 @@ A - 16px
 
 /*===================================Fontes===================================*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Roboto+Mono:wght@200&family=Source+Code+Pro&display=swap');
 
 /*===================================Estilos Gerais===================================*/
 
@@ -98,7 +98,7 @@ input, button {
 
 .section_diagonal {
 	width: 100%;
-	height: 225px;
+	height: 150px;
 	z-index: 0;
 	background-color: white;
 	transform: skewY(-2deg);
@@ -329,7 +329,7 @@ nav {
 	height: 90vh;
 	background-color: white;
 	color: #093366;
-	padding-top: 30px;
+	margin-top: 150px;
 }
 
 .content_sobre {
@@ -348,7 +348,7 @@ nav {
 	align-items: center;
 	padding: 20px;
 	background-color: white;
-	box-shadow: 0px 0px 10px lightgray;
+	box-shadow: 0px 0px 20px #EFF0F9;
 }
 
 .div_text_sobre {
@@ -486,4 +486,124 @@ nav {
 
 .button_seeFormation > a:hover {
 	color: gray;
+}
+
+/*===================================Estilos Our Members===================================*/
+
+.section_ourMembers {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+.content_ourMembers {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 30px 130px 80px 130px;
+	color: #093366;
+}
+
+.text_ourMembers {
+	width: 40%;
+	height: auto;
+}
+
+.img_ourMembers {
+	padding: 30px 0px 30px 50px;
+}
+
+.img_ourMembers > img {
+	width: 400px;
+	opacity: 0.6;
+}
+
+.opinion_ourMembers {
+	width: 60%;
+	height: auto;
+}
+
+.text_ourMembers > h1 {
+	width: 300px;
+	margin: 20px 0;
+	font-size: 2.5em;
+}
+
+.text_ourMembers > p {
+	width: 400px;
+}
+
+.opinion_ourMembers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-end;
+}
+
+.text_aspas {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	color: lightblue;
+	font-size: 8em;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.text_aspas > span {
+	margin: 20px 70px 0 0;
+}
+
+.div_opinion_1 {
+	width: 550px;
+	height: 210px;
+	padding: 30px 30px 30px 50px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 30px #EFF0F9;
+	font-size: 0.9em;
+}
+
+.div_opinion_2 {
+	width: auto;
+	height: auto;
+	padding: 30px 50px;
+	box-shadow: 0px 0px 30px #EFF0F9;
+	font-size: 0.9em;
+}
+
+.img_opinion {
+	width: 65px;
+	height: 65px;
+
+	background-image: url("https://www.thispersondoesnotexist.com/image");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border: 2px solid blue;
+	position: absolute;
+	border-radius: 50px;
+	margin: -10px 0 0 -84px;
+}
+
+.div_text_opinion {
+	width: 300px;
+}
+
+.text_bold {
+	font-weight: bold;
+}
+
+.name_opinion {
+	margin-top: 20px;
+}
+
+/*===================================Estilos Graduacao===================================*/
+
+.section_graduacao {
+	width: 100%;
+	height: 100vh;
+	background-color: #151617;
 }
