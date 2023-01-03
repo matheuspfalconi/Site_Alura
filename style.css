@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.825em;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -120,7 +120,7 @@ main {
 
 nav {
 	width: 100%;
-	padding: 40px 150px;
+	padding: 40px 130px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: nowrap;
@@ -133,7 +133,7 @@ nav {
 }
 
 .div_search {
-	width: 300px;
+	width: 370px;
 	height: 55px;
 	border: 1px solid gray;
 	border-radius: 5px;
@@ -151,11 +151,11 @@ nav {
 .icon_search {
 	width: auto;
 	height: 100%;
-	padding: 10px 10px 0 10px;
+	padding: 15px 10px 0 10px;
 }
 
 .icon_search > span {
-	font-size: 30px;
+	font-size: 25px;
 	cursor: pointer;
 }
 
@@ -219,21 +219,22 @@ nav {
 .content_home {
 	width: 100%;
 	height: auto;
-	padding: 0 150px 50px 150px;
+	padding: 0 130px 50px 130px;
 }
 
 .text_home {
-	width: 400px;
+	width: 420px;
 	margin-bottom: 50px;
 }
 
 .text_home > h1 {
-	font-size: 3em;
+	font-size: 3.5em;
 	margin-bottom: 20px;
 }
 
 .text_home > p {
 	color: lightgray;
+	font-size: 1.1em;
 }
 
 .img_home {
@@ -325,6 +326,89 @@ nav {
 
 .section_sobre {
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	background-color: white;
+	color: #093366;
+	padding-top: 30px;
 }
+
+.content_sobre {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	column-gap: 100px;
+	padding: 0 130px;
+}
+
+.div_video_sobre {
+	width: 550px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 10px lightgray;
+}
+
+.div_text_sobre {
+	width: 500px;
+	height: auto;
+}
+
+.div_text_sobre > h2 {
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+.div_text_sobre > p {
+	margin-bottom: 40px;
+}
+
+.div_text_sobre > input {
+	width: 320px;
+	height: 55px;
+	background-color: #A0F8BE;
+	border-radius: 25px;
+	border: none;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*===================================Estilos Benefits===================================*/
+
+.section_benefits {
+	width: 100%;
+	height: auto;
+	padding: 0 130px 100px 130px;
+	color: #093366;
+}
+
+.list_benefits {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.item_benefits {
+	width: 300px;
+}
+
+.item_benefits > span {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.item_benefits > h2 {
+	margin-bottom: 20px;
+}
+
+.item_benefits > p {
+	font-size: 1.1em;
+}
+
+/*===================================Estilos Formações===================================*/
