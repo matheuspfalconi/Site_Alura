@@ -174,7 +174,7 @@ nav {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	column-gap: 20px;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	padding-top: 20px;
 }
 
@@ -190,7 +190,7 @@ nav {
 	display: flex;
 	flex-wrap: nowrap;
 	column-gap: 20px;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .item_buttons {
@@ -606,4 +606,72 @@ nav {
 	width: 100%;
 	height: 100vh;
 	background-color: #151617;
+}
+
+.content_graduacao {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 130px;
+}
+
+.div_text_graduacao {
+	flex: 1;
+	font-size: 1.1em;
+}
+
+.text_graduacao > h1 {
+	width: 500px;
+	color: lightgray;
+	margin-bottom: 40px;
+}
+
+.text_graduacao > p {
+	color: gray;
+	margin-bottom: 40px;
+}
+
+.text_graduacao > p > strong {
+	color: lightgray;
+}
+
+.div_buttons_graduacao {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 20px;
+}
+
+.button_graduacao {
+	width: 260px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #E93A5D;
+	border-radius: 50px;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+.button_graduacao:hover {
+	size: 0.9;
+	background-color: #E93A5D;
+}
+
+.button_graduacao > p {
+	font-size: 0.7em;
+	letter-spacing: 2px;
+}
+
+.div_img_graduacao {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
 }
