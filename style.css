@@ -115,7 +115,7 @@ main {
 .section_home {
 	width: 100%;
 	height: 120vh;
-	background-color: #051D3B;
+	background: radial-gradient(circle, rgba(8,50,99,1) 0%, rgba(5,28,57,1) 100%);
 }
 
 nav {
@@ -168,7 +168,7 @@ nav {
 	column-gap: 20px;
 }
 
-.list_links {
+.list_links_navbar {
 	height: auto;
 	display: flex;
 	flex-wrap: nowrap;
@@ -178,27 +178,29 @@ nav {
 	padding-top: 20px;
 }
 
-.item_links > a, .item_buttons > a {
+.item_links_navbar > a, .item_buttons_navbar > a {
 	color: white;
 }
 
-.item_links:hover > a {
+.item_links_navbar:hover > a {
 	color: gray;
+	transition: 0.2s;
 }
 
-.list_buttons {
+.list_buttons_navbar {
 	display: flex;
 	flex-wrap: nowrap;
 	column-gap: 20px;
 	font-size: 0.7em;
 }
 
-.item_buttons {
+.item_buttons_navbar {
 	padding-top: 20px;
 }
 
-.item_buttons:hover > a {
+.item_buttons_navbar:hover > a {
 	color: gray;
+	transition: 0.2s;
 }
 
 .div_button_matricular > input {
@@ -214,6 +216,7 @@ nav {
 
 .div_button_matricular > input:hover {
 	margin-top: 2px; 
+	transition: 0.2s;
 }
 
 .content_home {
@@ -274,6 +277,7 @@ nav {
 
 .list_school_options > li:hover {
 	border: 1px solid #318BF6;
+	transition: 0.2s;
 }
 
 .option_hidden {
@@ -366,7 +370,12 @@ nav {
 	margin-bottom: 40px;
 }
 
-.div_text_sobre > input {
+.div_button_sobre {
+	width: 100%;
+	height: 57px;
+}
+
+.div_button_sobre > input {
 	width: 320px;
 	height: 55px;
 	background-color: #A0F8BE;
@@ -375,6 +384,11 @@ nav {
 	color: black;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.div_button_sobre > input:hover {
+	margin-top: 2px; 
+	transition: 0.2s;
 }
 
 /*===================================Estilos Benefits===================================*/
@@ -417,7 +431,7 @@ nav {
 	width: 100%;
 	height: auto;
 	padding: 80px 130px 150px 130px;
-	background-color: #051D3B;
+	background: radial-gradient(circle, rgba(8,50,99,1) 0%, rgba(5,28,57,1) 100%);
 }
 
 .content_formacao {
@@ -486,6 +500,7 @@ nav {
 
 .button_seeFormation > a:hover {
 	color: gray;
+	transition: 0.2s;
 }
 
 /*===================================Estilos Our Members===================================*/
@@ -544,7 +559,6 @@ nav {
 
 .text_aspas {
 	width: 100%;
-	height: auto;
 	display: flex;
 	justify-content: flex-end;
 	color: lightblue;
@@ -553,7 +567,8 @@ nav {
 }
 
 .text_aspas > span {
-	margin: 20px 70px 0 0;
+	margin-right:  70px;
+	line-height: 0.5;
 }
 
 .div_opinion_1 {
@@ -605,7 +620,7 @@ nav {
 .section_graduacao {
 	width: 100%;
 	height: 100vh;
-	background-color: #151617;
+	background: radial-gradient(circle, rgba(30,33,34,1) 0%, rgba(14,14,14,1) 100%);
 }
 
 .content_graduacao {
@@ -674,4 +689,211 @@ nav {
 	flex: 1;
 	display: flex;
 	justify-content: flex-end;
+}
+
+/*===================================Estilos Worth It===================================*/
+
+.section_worth {
+	width: 100%;
+	height: auto;
+	background: radial-gradient(circle, rgba(8,50,99,1) 0%, rgba(5,28,57,1) 100%);
+}
+
+.content_worth {
+	width: 100%;
+	height: auto;
+	padding: 80px 130px;
+}
+
+.div_title_worth {
+	width: 500px;
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.div_title_worth > p {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.line_worth {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid lightblue;
+}
+
+.div_list_depoiments {
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+}
+
+.list_depoiments {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.list_depoiments > li {
+	width: 380px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #051E3D;
+	margin-bottom: 80px;
+}
+
+.div_img_depoiment {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	margin: -35px 250px 0 0;
+
+	background-image: url("https://www.thispersondoesnotexist.com/image");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.div_place_depoiment {
+	width: 100%;
+	height: 10px;
+	background-color: #051933;
+	padding-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.text_place_depoiment {
+	width: 130px;
+	height: 30px;
+	background-color: #051933;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div_content_depoiment {
+	width: 100%;
+	height: 100%;
+	padding: 50px 30px 30px 30px;
+	font-size: 0.9em;
+}
+
+.name_depoiment {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.div_video_depoiment {
+	width: 100%;
+	height: 150px;
+	border: 1px solid red;
+	margin-bottom: 10px;
+}
+
+.desc_depoiment {
+	margin-bottom: 30px;
+}
+
+.link_depoiment {
+	text-decoration: underline;
+	color: white;
+}
+
+.div_button_moreDepoiments {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.div_button_moreDepoiments > a {
+	z-index: 1;
+}
+
+.button_moreDepoiments {
+	width: 700px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+}
+
+.out_button_moreDepoiments {
+	width: 700px;
+	height: 55px;
+	margin-top: 5px;
+	background-color: #50C3E1;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 0;
+}
+
+.button_moreDepoiments:hover {
+	margin-top: 5px;
+	transition: 0.2s;
+}
+
+/*===================================Estilos Our Companies===================================*/
+
+.section_ourCompanies {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+.content_ourCompanies {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 80px 130px;
+	color: #093366;
+}
+
+.text_ourCompanies {
+	width: 40%;
+	height: auto;
+}
+
+.opinion_ourCompanies {
+	width: 60%;
+	height: auto;
+}
+
+.img_ourCompanies {
+	margin-bottom: 40px;
+}
+
+.text_ourCompanies > span {
+	color: blue;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.text_ourCompanies > h1 {
+	margin: 5px 0 20px 0;
+	font-weight: bold;
+}
+
+.text_ourCompanies > p {
+	width: 400px;
+}
+
+.opinion_ourCompanies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-end;
 }
