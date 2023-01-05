@@ -18,10 +18,14 @@ Languages used:
 
 Html and CSS
 
+# Original
+
+https://www.alura.com.br/
+
 # Preview
 
 ![Captura de Tela 2023-01-05 às 18 58 24](https://user-images.githubusercontent.com/33550514/210887932-b0c87141-9401-4c4b-9f8e-fb5d2658b43e.png)
-![Captura de Tela 2023-01-05 às 18 58 40](https://user-images.githubusercontent.com/33550514/210887979-abc82e5e-fb8f-419b-b7ea-277d7fd7f4e6.png)
+![Captura de Tela 2023-01-05 às 19 03 03](https://user-images.githubusercontent.com/33550514/210888698-78b90799-3c68-4aab-96a6-8c374b73aba1.png)
 ![Captura de Tela 2023-01-05 às 18 58 54](https://user-images.githubusercontent.com/33550514/210888025-8d713f0a-706e-49b8-af1c-c226e09d8fbf.png)
 ![Captura de Tela 2023-01-05 às 18 59 27](https://user-images.githubusercontent.com/33550514/210888163-9db31e82-b810-4384-81ab-926437e71ebe.png)
 ![Captura de Tela 2023-01-05 às 18 59 56](https://user-images.githubusercontent.com/33550514/210888300-4e22f24d-b09b-46b1-84ea-9c2f1c8818f9.png)
